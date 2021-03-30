@@ -1,4 +1,7 @@
-# token
+# token file
 access_token.txt
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
 
