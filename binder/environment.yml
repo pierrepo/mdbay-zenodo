@@ -1,0 +1,21 @@
+name: mdbay
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.8
+    - jupyterlab=3
+    - requests
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - plotly
+    - nodejs
+    - pip
+    - pip:
+        - watermark
